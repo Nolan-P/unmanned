@@ -1,0 +1,5 @@
+<launch>
+  <node name="$(anon pursuer)" pkg="unmanned" type="nolan_pursuer.py" />
+  <node name="$(anon logger)" pkg="unmanned" type="logger.py" />
+  <node name="$(anon turtlebot1_evader)" pkg="unmanned" type="evader.py" />
+</launch>
